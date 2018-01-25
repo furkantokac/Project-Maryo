@@ -14,7 +14,7 @@ BLUE = (100, 100, 255)
 
 class MaryoImageObject(pygame.sprite.Sprite):
     def __init__(self, width, height, image_path, x=0, y=0):
-        super().__init__()
+        super(MaryoImageObject, self).__init__()
         self.width = width
         self.height = height
 
